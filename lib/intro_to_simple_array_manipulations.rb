@@ -5,8 +5,9 @@ def using_push(array, string)
 end
 
 def using_unshift(array, string)
-  array = ["Africa", "Asia", "Europe", "North America", "Australia", "Antarctica"]
-  array.unshift("South America")
+  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+  @newneighborhood = "Staten Island"
+  
 end
 
 def using_pop(array)
